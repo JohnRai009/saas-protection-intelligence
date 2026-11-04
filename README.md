@@ -1,5 +1,5 @@
 # SaaS Protection Intelligence
-## Windows Client Release V3
+## Windows Client Release V1
 **Deployment, Installation & Operational Guide**
 
 **Release:** Version 1  
@@ -107,7 +107,7 @@ Indicates that the available information cannot support a reliable backup-health
 | Component | Requirement |
 |---|---|
 | Operating System | Compatible Microsoft Windows environment |
-| Python Runtime | Python 3.14, as targeted by the V3 installer |
+| Python Runtime | Python 3.14, as targeted by the V1 installer |
 | Internet Connectivity | Required for initial downloads, dependency installation and Datto API access |
 | Permissions | Ability to approve Windows UAC elevation when requested |
 | Application Hosting | Local machine |
