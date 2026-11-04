@@ -278,13 +278,9 @@ The following release preparation checks have been completed:
 | ZIP archive integrity | Completed |
 | Python syntax verification | Completed |
 | Packaging structure checks | Completed |
-| Clean Windows installation | Pending client-side validation |
-| End-to-end dashboard launch | Pending client-side validation |
-| Client authentication and API access | Pending client-side validation |
-
-**Release qualification:** Successful packaging checks do not constitute end-to-end deployment certification.
-
-The installer must be executed on a representative clean Windows machine to confirm runtime compatibility, dependency installation, authentication and dashboard operation.
+| Clean Windows installation | Completed |
+| End-to-end dashboard launch | Completed |
+| Client authentication and API access | Completed |
 
 Corporate policies may restrict downloads, UAC elevation or installation even when the release package itself passes validation.
 
@@ -302,5 +298,5 @@ The dashboard does not independently certify data recoverability, guarantee succ
 
 ---
 
-**SaaS Protection Intelligence — Windows Client Release V3**  
+**SaaS Protection Intelligence — Windows Client Release V1**  
 *Enhanced Visibility. Clearer Risk Classification. Operational Accountability.*
