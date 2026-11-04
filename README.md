@@ -178,15 +178,15 @@ Complete Windows authentication and the necessary Datto API configuration throug
 
 ## 5. Virtual Environment Architecture
 
-### V3 Installation Improvement
+### V1 Installation Improvement
 
-Previous releases placed the Python virtual environment inside the extracted application directory.
+Previous tests placed the Python virtual environment inside the extracted application directory.
 
 On systems with unusually long extraction paths, this could cause Windows file-path limitations during dependency installation, including:
 
 `pip ERROR 2 — No such file or directory`
 
-**Version 3 addresses this issue** by placing the Python virtual environment at a dedicated, shorter path:
+**Version 1 addresses this issue** by placing the Python virtual environment at a dedicated, shorter path:
 
 `%LOCALAPPDATA%\SaaSP\venv`
 
