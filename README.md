@@ -131,15 +131,13 @@ Maintain the supplied application directory structure and supporting files.
 
 ### Step 2 — Launch the Installer
 
-Double-click:
+Right-click Install.bat and select Run as administrator.
 
-`Install.bat`
+When prompted by Windows User Account Control (UAC), click Yes to approve the installation.
 
-The installer opens a Windows Command Prompt and displays installation progress.
+The installer will open a Command Prompt, display installation progress and install the required Python runtime and dependencies.
 
-Where elevated permissions are required, Windows User Account Control (UAC) will request administrator approval.
-
-**Approve elevation only when authorised by your organisation. Do not execute the installer as the SYSTEM account.**
+**Administrator privileges are required for installation.**
 
 ### Step 3 — Automated Installation
 
